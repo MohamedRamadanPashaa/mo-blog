@@ -1,8 +1,6 @@
 import classes from "./Welcome.module.css";
 
 const Welcome = () => {
-  console.log(classes); // object
-
   return (
     <section className={classes["welcome"]}>
       <h1 className={classes["title"]}>MO Blog</h1>

@@ -1,0 +1,20 @@
+.card {
+  background-color: var(--color-one);
+  padding: 20px;
+  width: 350px;
+  flex-grow: 1;
+  border: 2px solid var(--color-two);
+  border-radius: 10px;
+}
+
+.title {
+  color: var(--color-four);
+  margin-bottom: 5px;
+  padding: 0px 5px;
+  border-left: 3px solid var(--red-color);
+  width: fit-content;
+}
+
+.description {
+  color: var(--color-three);
+}

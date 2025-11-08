@@ -1,5 +1,6 @@
 import Welcome from "@/components/Home/Welcome";
 import Contacts from "@/components/Home/Contacts";
+import MySkills from "@/components/Home/MySkills";
 
 export default function HomePage() {
   return (
@@ -7,6 +8,8 @@ export default function HomePage() {
       <Welcome />
 
       <Contacts />
+
+      <MySkills />
     </section>
   );
 }

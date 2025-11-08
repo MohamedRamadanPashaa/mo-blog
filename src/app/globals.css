@@ -4,6 +4,15 @@
   margin: 0;
 }
 
+:root {
+  --color-one: #e7eaf6;
+  --color-two: #a2a8d3;
+  --color-three: #38598b;
+  --color-four: #113f67;
+  --red-color: #f95959;
+  --green-color: #3a9679;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -16,6 +25,10 @@ ul {
 
 a {
   text-decoration: none;
-  color: rgb(58, 58, 235);
-  text-transform: lowercase;
+  color: inherit;
+}
+
+.main {
+  position: relative;
+  top: 50px;
 }

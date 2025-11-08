@@ -1,3 +1,4 @@
+import NavBar from "@/components/NavBar/NavBar";
 import "./globals.css";
 
 export const metadata = {
@@ -9,7 +10,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body suppressHydrationWarning>
-        <main>{children}</main>
+        <NavBar />
+        <main className="main">{children}</main>
       </body>
     </html>
   );

@@ -1,0 +1,33 @@
+.my-skills {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  max-width: 90%;
+  width: 1200px;
+  margin: 20px auto;
+}
+
+@media (min-width: 767px) {
+  .my-skills {
+    gap: 15px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .my-skills {
+    gap: 20px;
+  }
+}
+
+/* 
+    0-640px
+    640-767px phone
+    767-1024px tablet
+    1024-1200 computer
+    1200+ tv
+
+    1- spaces (gap-padding-margin)
+    2- font-size
+    3- display
+    4- animation
+*/
