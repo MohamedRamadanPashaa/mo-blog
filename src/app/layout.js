@@ -11,6 +11,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body suppressHydrationWarning>
         <NavBar />
+
         <main className="main">{children}</main>
       </body>
     </html>
