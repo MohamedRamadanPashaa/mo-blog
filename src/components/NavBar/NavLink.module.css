@@ -1,3 +1,4 @@
 .active {
   color: var(--red-color);
+  border-bottom: 2px solid var(--red-color);
 }

@@ -5,6 +5,8 @@ import { usePathname } from "next/navigation";
 
 import classes from "./NavLink.module.css";
 
+// react hook
+
 export default function NavLink({ href, text }) {
   const pathname = usePathname();
 

@@ -1,6 +1,6 @@
 import Link from "next/link";
-import NavLink from "./NavLink";
 import { NAV_DATA } from "@/data/nav-data";
+import NavLink from "./NavLink";
 
 import classes from "./NavBar.module.css";
 
